@@ -225,7 +225,7 @@ body a {
     transform: scale(1);
   }
   to {
-    transform: scale(90);
+    transform: scale(110);
   }
 }
 
@@ -629,4 +629,7 @@ body a {
 .button__egypt:hover .mosaic__square:nth-child(468) {
   background-color: gold;
   border: 1px solid #ffff66;
+}
+.button__egypt:active .mosaic__square {
+  border: 1.2px solid #ffff66;
 }
