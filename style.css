@@ -24,7 +24,7 @@ body a {
 
 .button {
   position: relative;
-  display: inline-block;
+  display: inline-black;
   width: 400px;
   height: 80px;
   text-decoration: none;
@@ -98,7 +98,7 @@ body a {
 
 .button__three {
   position: relative;
-  display: inline-block;
+  display: inline-black;
   width: 400px;
   height: 80px;
   text-decoration: none;
@@ -161,7 +161,7 @@ body a {
 }
 .button__egypt {
   position: relative;
-  display: inline-block;
+  display: inline-black;
   width: 400px;
   height: 80px;
   text-decoration: none;
@@ -203,7 +203,7 @@ body a {
 .button__egypt .mosaic__square {
   width: 5%;
   height: 30%;
-  transition: all 0.3s ease;
+  transition: all 0.3s ease, transform 2s ease;
 }
 .button__egypt .mosaic__square:nth-child(1n + 0) {
   background-color: #ffbe0b;
@@ -220,72 +220,408 @@ body a {
   height: 10%;
 }
 .button__egypt:hover .mosaic__square:nth-child(9) {
-  background-color: white;
+  background-color: rgba(255, 255, 0, 0.527);
+  border-radius: 50%;
 }
 .button__egypt:hover .mosaic__square:nth-child(58) {
-  background-color: white;
+  background-color: gold;
+  border: 1px solid black;
 }
 .button__egypt:hover .mosaic__square:nth-child(59) {
-  background-color: white;
+  background-color: gold;
+  border: 1px solid black;
 }
 .button__egypt:hover .mosaic__square:nth-child(60) {
-  background-color: white;
+  background-color: gold;
+  border: 1px solid black;
 }
 .button__egypt:hover .mosaic__square:nth-child(107) {
-  background-color: white;
+  background-color: gold;
+  border: 1px solid black;
 }
 .button__egypt:hover .mosaic__square:nth-child(108) {
-  background-color: white;
+  background-color: gold;
+  border: 1px solid black;
 }
 .button__egypt:hover .mosaic__square:nth-child(109) {
-  background-color: white;
+  background-color: gold;
+  border: 1px solid black;
 }
 .button__egypt:hover .mosaic__square:nth-child(110) {
-  background-color: white;
+  background-color: gold;
+  border: 1px solid black;
 }
 .button__egypt:hover .mosaic__square:nth-child(111) {
-  background-color: white;
+  background-color: gold;
+  border: 1px solid black;
 }
 .button__egypt:hover .mosaic__square:nth-child(156) {
-  background-color: white;
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(157) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(157) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(158) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(159) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(160) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(161) {
+  background-color: gold;
+  border: 1px solid black;
 }
 .button__egypt:hover .mosaic__square:nth-child(162) {
-  background-color: white;
+  background-color: gold;
+  border: 1px solid black;
 }
 .button__egypt:hover .mosaic__square:nth-child(205) {
-  background-color: white;
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(206) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(207) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(208) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(209) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(210) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(211) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(212) {
+  background-color: gold;
+  border: 1px solid black;
 }
 .button__egypt:hover .mosaic__square:nth-child(213) {
-  background-color: white;
+  background-color: gold;
+  border: 1px solid black;
 }
 .button__egypt:hover .mosaic__square:nth-child(254) {
-  background-color: white;
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(255) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(256) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(257) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(258) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(259) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(260) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(261) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(262) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(263) {
+  background-color: gold;
+  border: 1px solid black;
 }
 .button__egypt:hover .mosaic__square:nth-child(264) {
-  background-color: white;
+  background-color: gold;
+  border: 1px solid black;
 }
 .button__egypt:hover .mosaic__square:nth-child(303) {
-  background-color: white;
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(304) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(305) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(306) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(307) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(308) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(309) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(310) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(311) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(312) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(313) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(314) {
+  background-color: gold;
+  border: 1px solid black;
 }
 .button__egypt:hover .mosaic__square:nth-child(315) {
-  background-color: white;
+  background-color: gold;
+  border: 1px solid black;
 }
 .button__egypt:hover .mosaic__square:nth-child(352) {
-  background-color: white;
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(353) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(354) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(355) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(356) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(357) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(358) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(359) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(360) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(361) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(362) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(363) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(364) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(365) {
+  background-color: gold;
+  border: 1px solid black;
 }
 .button__egypt:hover .mosaic__square:nth-child(366) {
-  background-color: white;
+  background-color: gold;
+  border: 1px solid black;
 }
 .button__egypt:hover .mosaic__square:nth-child(401) {
-  background-color: white;
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(402) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(403) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(404) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(405) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(406) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(407) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(408) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(409) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(410) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(411) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(412) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(413) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(414) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(415) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(416) {
+  background-color: gold;
+  border: 1px solid black;
 }
 .button__egypt:hover .mosaic__square:nth-child(417) {
-  background-color: white;
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(451) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(452) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(453) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(454) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(455) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(456) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(457) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(458) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(459) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(460) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(461) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(462) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(463) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(464) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(465) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(466) {
+  background-color: gold;
+  border: 1px solid black;
+}
+.button__egypt:hover .mosaic__square:nth-child(467) {
+  background-color: gold;
+  border: 1px solid black;
 }
 .button__egypt:hover .mosaic__square:nth-child(468) {
-  background-color: white;
+  background-color: gold;
+  border: 1px solid black;
 }
 
-.button__egypt:active .mosaic__square:nth-child(3n + 0) {
-  width: 10%;
+.button__egypt:active .mosaic__square:nth-child(9) {
+  background-color: rgba(255, 255, 0, 0.527);
+  transform: scale(100);
+  border: none;
 }
